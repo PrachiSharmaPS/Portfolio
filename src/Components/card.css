@@ -1,0 +1,56 @@
+
+.image-slide {
+  width: 100rem;
+    max-width: 100%;
+    height: auto;
+  display: block;
+
+}
+.image-container{
+    max-width: 48%;
+    border: 1px solid rgb(216, 216, 216);
+}
+.card{
+    display: flex;
+ margin-bottom: 30px;
+ margin-top: 20px;
+
+}
+.text-container{
+    width: 50%;
+padding-left: 55px;
+padding-right: 55px;
+ 
+}
+.card-title {
+    font-size: 24px;
+    margin-bottom: 35px;
+    font-weight: 800;
+    color: rgb(97, 185, 160);
+    position: relative; /* Position relative to create a reference point */
+}
+
+.card-title::after {
+    content: ''; /* Empty content for pseudo-element */
+    position: absolute; /* Position absolute to overlay on top of the text */
+    left: 0;
+    margin-left: 20%; 
+    bottom: -3px; /* Adjust the distance of the underline from the text */
+    width: 58%; /* Make the underline span the entire width of the text */
+    height: 2px; /* Height of the underline */
+    background-color: rgb(97, 185, 160); /* Color of the underline */
+    transition: width 0.3s ease; /* Transition effect for width change */
+}
+
+.card-title:hover::after {
+    width: 0; /* Hide the underline on hover by reducing its width to 0 */
+}
+
+.card-description{
+font-size: 16px;
+font-weight: 600;
+line-height: 26px;
+}
+b{
+    color:rgb(79, 79, 255)
+}

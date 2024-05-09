@@ -1,0 +1,22 @@
+h3 {
+    padding-top: 30px;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Font Name', sans-serif;
+    padding-top: 40px;
+    background: linear-gradient(to right, #7073FE, #8404b7); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+   
+}
+  .myjourney {
+    text-align: center;
+    line-height: 1.8rem;
+    font-size: 22px;
+  
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Concert One", sans-serif;
+  }
+  

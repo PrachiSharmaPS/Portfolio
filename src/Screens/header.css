@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-right: 15px;
+    animation: fadeIn 2s ease-in-out;  
+}
+
+.title {
+    color: #7073FE;
+    letter-spacing: 3px;
+    padding-left: 20px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,28 @@
+.project {
+    padding-top: 18rem;
+    
+}
+
+.projectList {
+    width: 97%;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 20px; 
+    background-color: #fefefea0;
+    text-align: center;
+    color: #02150e;
+    font-family: 'montserrat';
+}
+h3 {
+   
+    font-size: 32px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Font Name', sans-serif;
+    background: linear-gradient(to right, #7073FE, #8484af); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+   
+}
+
+

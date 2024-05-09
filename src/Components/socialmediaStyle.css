@@ -1,0 +1,13 @@
+.links{
+    display: flex; /* Use flexbox */
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+a{
+    padding-right: 16px;
+}
+.links a:hover {
+    transform: scale(1.2); /* Increase size on hover */
+}

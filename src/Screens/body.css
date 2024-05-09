@@ -1,0 +1,61 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 65vh; 
+    padding-top: 14rem;
+    animation: fadeIn 3s ease-in-out; 
+  }
+.myParagraph {
+    font-size: 52px;
+    letter-spacing: 1px;
+    font-weight: 800;
+  }
+  
+  .mySpan {
+    color: #7073FE;
+  }
+
+
+  .para {
+    text-align: center;
+    line-height: 1.8rem;
+    font-size: 24px;
+    margin-top: -10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family: "Concert One", sans-serif;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Font+Name&display=swap');
+
+  h3 {
+    padding-top: 30px;
+    font-size: 26px;
+    font-weight: 900;
+    font-family: 'Font Name', sans-serif;
+    padding-top: 40px;
+    background: linear-gradient(to right, #7073FE, #8404b7); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+   
+}
+  .myjourney {
+    text-align: center;
+    line-height: 1.2rem;
+    font-size: 22px;
+  
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Concert One", sans-serif;
+  }
+  @keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
