@@ -24,7 +24,7 @@ const Card = () => {
           
         <div className="text-container">
             <p className="card-title">URL Shortener</p>
-            <p className="card-description">The URL Shortener project is a full-stack web application aimed at providing users with a simple and efficient solution to shorten long URLs into more manageable and shareable links. This project utilizes a combination of <b>React.js</b> for the frontend,<b> Node.js </b>for the backend, and<b> MongoDB</b> and <b>Redis</b> for data storage.</p>
+            <p className="card-description">The URL Shortener project is a full-stack web application aimed at providing users with a simple and efficient solution to shorten long URLs into more manageable and shareable links. This project utilizes a combination of <b>React.js</b> for the frontend,<b> Node.js </b>for the backend, and<b> MongoDB</b> with <b>Redis</b> for data storage.</p>
         </div>
         <div className="image-container">
         
@@ -35,6 +35,7 @@ const Card = () => {
            
         </div>
     </div>
+        <hr className="hr-custom" />
         <div className="card">
             <div className="image-container">
                 <Slider {...settings}>
@@ -55,7 +56,7 @@ const Card = () => {
             </div>
             
         </div>
-        <hr />
+        <hr className="hr-custom" />
         <div className="card">
           
             <div className="text-container">

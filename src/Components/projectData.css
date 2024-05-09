@@ -4,13 +4,15 @@
 }
 
 .projectList {
-    width: 97%;
+    width: 94%;
     height: auto;
+    margin: 20px;
     padding: 20px;
     margin-bottom: 20px; 
-    background-color: #fefefea0;
+    background-color: #fefefeb9;
     text-align: center;
     color: #02150e;
+    border-radius: 10px;
     font-family: 'montserrat';
 }
 h3 {
@@ -19,7 +21,7 @@ h3 {
     text-align: center;
     font-weight: 900;
     font-family: 'Font Name', sans-serif;
-    background: linear-gradient(to right, #7073FE, #8484af); 
+    background: linear-gradient(to right, #4a4cd6, #7073FE); 
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
    

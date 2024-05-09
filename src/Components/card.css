@@ -26,24 +26,24 @@ padding-right: 55px;
     font-size: 24px;
     margin-bottom: 35px;
     font-weight: 800;
-    color: rgb(97, 185, 160);
-    position: relative; /* Position relative to create a reference point */
+    color: #C06892;
+    position: relative; 
 }
 
 .card-title::after {
-    content: ''; /* Empty content for pseudo-element */
-    position: absolute; /* Position absolute to overlay on top of the text */
+    content: ''; 
+    position: absolute; 
     left: 0;
     margin-left: 20%; 
-    bottom: -3px; /* Adjust the distance of the underline from the text */
-    width: 58%; /* Make the underline span the entire width of the text */
-    height: 2px; /* Height of the underline */
-    background-color: rgb(97, 185, 160); /* Color of the underline */
-    transition: width 0.3s ease; /* Transition effect for width change */
+    bottom: -3px; 
+    width: 58%; 
+    height: 2px; 
+    background-color: #C06892; 
+    transition: width 0.3s ease; 
 }
 
 .card-title:hover::after {
-    width: 0; /* Hide the underline on hover by reducing its width to 0 */
+    width: 0; 
 }
 
 .card-description{
@@ -54,3 +54,7 @@ line-height: 26px;
 b{
     color:rgb(79, 79, 255)
 }
+.hr-custom {
+    border-top: 1px solid #c3c3c3e7; /* Change the color as needed */
+    margin: 30px 50px; /* Add margin to create space around the hr */
+  }
